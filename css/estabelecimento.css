@@ -1,0 +1,394 @@
+/*--------------------------------
+
+
+Cores:
+	Body 		  : #
+	Headers 	: #
+	Primary 	: #
+	Dark      : #
+	Grey 		  : 
+
+Fontes: ARVO
+
+GUIA DE CONTEÚDO
+------------------------------------
+1 > CONFIGURAÇÕES GLOBAIS
+2 > SESSÃO INICIAL
+3 > SESSÃO SOLUÇÕES
+4 > SESSÃO EQUIPE
+5 > SESSÃO TRAMPOS
+6 > CLIENTES
+7 > FOOTER
+
+
+------------------------------------*/
+
+
+/* -- CONFIGURAÇÒES GLOBAIS  -- */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav,
+ul {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+p {
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+caption {
+  font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:visited {
+	text-decoration: none;
+	outline: none;
+}
+
+
+button {
+	border: none;
+	outline: none;
+	box-shadow: none;
+	display: block;
+	padding: 0;
+}
+
+input,
+textarea {
+	outline: none;
+	box-shadow: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+strong {
+	margin: 10px;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+/* FIM CONFIGURAÇÕES GLOBAIS */
+
+
+/* -- FOOTER RESPONSIVO  -- */
+footer{
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	}
+
+.container-master {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	background-color: #FFFFFF;
+}
+
+.be-flex {
+	display: flex;
+
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.row {
+	flex-direction: row;
+}
+
+/* --   -- */
+
+/* -- TELA 3 - REGIÃO  -- */
+
+.top_nav {
+	background-color: #1E2E44;
+	height: 12%;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.top_nav img{
+	width: 28%;
+	margin-top: 5%;
+}
+
+.redline{
+	border-bottom: 6px solid #C44628;
+
+}
+
+.burger-menu {
+	display: inline-block;
+	cursor: pointer;
+	margin: 12px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+	width: 35px;
+	height: 5px;
+	background-color: #e5e5e5;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+.b_nav {
+	background-color: rgb(185, 185, 185);
+	height: 1%;
+	width: 100%;
+}
+
+.div-campo {
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding: 3%;
+	background-color: #1E2E44;
+}
+
+.campo {
+	width: 88%;
+	margin-top: 25px;
+	border-radius: 60px;
+	background-color: #FFFFFF;
+	padding: 2%;
+	height: 40px;
+	justify-content: center;
+	align-content: center;
+}
+
+.container-mid {
+	background-color: #EAEAEA;
+	width: 100%;
+	height: 20%;
+	margin-bottom: 40px;
+}
+
+.container-mid h1 {
+  text-align: center;
+  bottom: 40px;
+}
+
+.container-mid h3{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 20px;
+	color: #000000;
+
+}
+
+.conteudo{
+	padding-top: 7%;
+	align-items: center;
+	justify-content: center;
+}
+
+.avatar {
+
+	border-radius: 50%;
+	margin-top: 20px;
+  }
+
+span {
+	font-size: 18px;
+}
+
+.dinheiro {
+	font-size: 30px;
+}
+
+.texto-azul {
+	font-size: 14px;
+	font-weight: bold;
+	color: #08B8E3
+}
+
+
+
+.mid-box {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin: 5px;
+}
+
+/* SELEÇÃO ESTADOS */
+.seletor-regiao {
+	margin-top: 20px;
+	justify-content: center;
+}
+
+.seletor-regiao .caption {
+  font-size: 12px;
+  color: #1E2E44;
+}
+
+.seleciona-regiao {
+	font-weight: bold;
+	justify-items: center;
+	color: #1E2E44;
+	justify-content: space-around;
+}
+
+.seleciona-regiao h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1E2E44;
+}
+
+.selected {
+  border-bottom: 4px solid;
+  border-color: #08B8E3;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.unselected {
+  border-bottom: 4px solid;
+  border-color: #C8C8C8;
+  padding-right: 12%;
+  padding-left: 12%;
+}
+
+.container-mid-2{
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	height: 20%;
+
+}
+
+.container-mid-2 h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.container-mid-2 h4{
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	color: #9AA9BC;
+}
+
+.container-mid-2 h5{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: #1E2E44;
+
+}
+
+
+.container-mid-3 {
+	justify-content: center;
+	align-items: center;
+	background-color: #EAEAEA;
+	width: 100%;
+	height: 60%;
+	margin-bottom: 30px;
+
+}
+
+.container-mid-3 img{
+	width: 80%;
+	height: auto;
+}
+/* FIM TELA 3 REGIÃO */
+/* -- FOOTER  -- */
+
+/* --   -- */
+
+
+
+/****** -- RESPONSIVO  -- ******/
+
+/***** TABLET *****/
+@media screen and (max-width: 768px) {
+
+	/* -- SESSAO INICIO RESPONSIVO  -- */
+	.inicio {}
+
+	/* --   -- */
+
+	/* -- SESSÃO SOLUÇÕES RESPONSIVO  -- */
+
+
+	/* --   -- */
+
+	/* -- SESSÃO EQUIPE RESPONSIVO  -- */
+
+
+	/* --   -- */
+
+
+	/* -- SESSAO TRAMPOS RESPONSIVO  -- */
+
+
+	/* -- SESSÃO CLIENTES RESPONSIVO -- */
+
+	/* --   -- */
+
+	/* -- FOOTER RESPONSIVO  -- */
+
+	/* --   -- */
+
+}
+
+
+
+/* --   -- */
