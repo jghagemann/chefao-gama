@@ -152,7 +152,7 @@ footer {
 
 .top_nav {
 	background-color: #1E2E44;
-	height: 10%;
+	height: 12%;
 	width: 100%;
 	justify-content: space-around;
 }
@@ -178,11 +178,12 @@ footer {
 	justify-content: center;
 	align-content: center;
 	background-color: #1E2E44;
+	padding: 3%;
 }
 
 .campo {
 	border-radius: 60px;
-	padding: 10px;
+	padding: 3%;
 	background-color: #FFFFFF;
 	justify-content: center;
 	align-content: center;
