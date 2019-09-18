@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
   }
   
   nav,
@@ -33,7 +33,7 @@
   
   h3 {
     font-size: 16px;
-    font-weight: normal;
+    font-weight: bold;
   }
   
   p {
@@ -49,6 +49,13 @@
   
   a {
     text-decoration: none;
+    text-decoration:underline;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
   }
   
   a:hover,
@@ -80,6 +87,10 @@
     margin: 10px;
   }
   
+  span {
+    font-size: 18px;
+  }
+
   html,
   body {
     width: 100%;
@@ -98,7 +109,7 @@
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   .container-master {
@@ -137,6 +148,11 @@ footer {
   
   }
   
+  .logo {
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+
   .b_nav {
     background-color: rgb(185, 185, 185);
     height: 1%;
@@ -157,13 +173,42 @@ footer {
     text-align: center;
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 20px;
+  }
+
+  .campo-regioes {
+    padding: 10px;
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
   }
   
+  .campo-regioes-selec {
+    padding: 10px;
+    background-color: #C44628;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+
   .container-mid {
-    background-color: #EAEAEA;
+    background-color: #F8F8F8;
     width: 100%;
-    height: 20%;
-    margin-bottom: 40px;
+    height: 35%;
+  }
+
+  .container-mid-reg {
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 80%;
   }
   
   .container-mid h1 {
@@ -171,15 +216,10 @@ footer {
     bottom: 40px;
   }
   
-  .avatar {
+  .menufooter {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
     margin-top: 20px;
-  }
-  
-  span {
-    font-size: 18px;
   }
   
   .dinheiro {
@@ -191,16 +231,50 @@ footer {
     font-weight: bold;
     color: #08B8E3
   }
-  
-  
-  
+
   .mid-box {
     display: flex;
     text-align: center;
     justify-content: center;
     margin: 5px;
   }
+
+  .mid-1 {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
   
+  .mid-1 h1 {
+    margin-top: 20px;
+  }
+  
+  .mid-1 p {
+    color: #1E2E44;
+  }
+  .mid-2 {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .mid-2 p {
+    justify-content: center;
+    font-size: 18px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .footer-1 p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1E2E44;
+  }
   /* SELEÇÃO ESTADOS */
   .seletor-regiao {
     margin-top: 20px;
@@ -239,8 +313,9 @@ footer {
     padding-left: 12%;
   }
   
-  
-  
+  .redline{
+    border-bottom: 6px solid #C44628;
+  }
   .container-mid-2 {
     background-color: #FFFFFF;
     width: 100%;
@@ -261,7 +336,7 @@ footer {
   @media screen and (max-width: 768px) {
   
     /* -- SESSAO INICIO RESPONSIVO  -- */
-    .inicio {}
+    /* .inicio {} */
   
     /* --   -- */
   
