@@ -262,15 +262,15 @@ footer {
 .selected {
 	border-bottom: 4px solid;
 	border-color: #08B8E3;
-	padding-right: 60px;
-	padding-left: 60px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .unselected {
 	border-bottom: 4px solid;
 	border-color: #C8C8C8;
-  padding-left: 28px;
-  padding-right: 28px;
+  padding-right: 25px;
+  padding-left: 2px;
 }
 
 .seletor-estado {
@@ -303,13 +303,13 @@ footer {
 	display: flex;
 	padding: 3%;
 	flex-direction: row;
-	width: 419px;
+	width: 300px;
 	height: 45px;
 	margin-bottom: 30px;
 	background-color: #F5F5F5;
 	border-left: 6px solid;
-	border-color: #DEDAD9;
-
+  border-color: #DEDAD9;
+  color: #000000;
 }
 
 .first{
@@ -321,6 +321,7 @@ footer {
 	border-left: 6px solid;
 	border-color: #C44628;
 }
+
 
 .avatar {
 	width: 40px;
