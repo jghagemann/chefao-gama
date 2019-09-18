@@ -123,6 +123,10 @@ body {
 
 }
 
+.logo {
+  margin-bottom: 5px;
+}
+
 .div-azul h1 {
   color: #FFFFFF;
   margin-left: 40px;

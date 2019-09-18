@@ -70,7 +70,7 @@ p {
 }
 
 caption {
-  font-size: 12px;
+	font-size: 12px;
 }
 
 a {
@@ -116,11 +116,11 @@ body {
 
 
 /* -- FOOTER RESPONSIVO  -- */
-footer{
+footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	}
+}
 
 .container-master {
 	display: flex;
@@ -157,20 +157,9 @@ footer{
 	justify-content: space-around;
 }
 
-.burger-menu {
-	display: inline-block;
-	cursor: pointer;
-	margin: 12px;
-}
-
-.bar1,
-.bar2,
-.bar3 {
-	width: 35px;
-	height: 5px;
-	background-color: #e5e5e5;
-	margin: 6px 0;
-	transition: 0.4s;
+.logo {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .b_nav {
@@ -181,47 +170,21 @@ footer{
 
 .div-campo {
 	width: 100%;
-	justify-content: center;
-	align-items: center;
-	padding: 3%;
 	background-color: #1E2E44;
 }
 
 .campo {
 	border-radius: 60px;
+	padding: 10px;
 	background-color: #FFFFFF;
-  padding: 1%;
-  height: 40px;
 	justify-content: center;
 	align-content: center;
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
-.container-mid {
-	background-color: #EAEAEA;
-	width: 100%;
-	height: 20%;
-	margin-bottom: 40px;
-}
 
-.container-mid h1 {
-  text-align: center;
-  bottom: 40px;
-}
-
-.avatar {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	margin-top: 20px;
-  }
-
-span {
-	font-size: 18px;
-}
-
-.dinheiro {
-	font-size: 30px;
-}
 
 .texto-azul {
 	font-size: 14px;
@@ -229,14 +192,31 @@ span {
 	color: #08B8E3
 }
 
-
-
-.mid-box {
-	display: flex;
-	text-align: center;
-	justify-content: center;
-	margin: 5px;
+.mid-1 {
+  justify-content: center;
+  text-align: center;
 }
+
+.mid-1 h1 {
+  margin-top: 20px;
+}
+
+.mid-1 p {
+  color: #1E2E44;
+}
+.mid-2 {
+  justify-content: center;
+  text-align: center;
+}
+
+.mid-2 p {
+  justify-content: center;
+  font-size: 18px;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+
 
 /* SELEÇÃO ESTADOS */
 .seletor-regiao {
@@ -245,8 +225,8 @@ span {
 }
 
 .seletor-regiao .caption {
-  font-size: 12px;
-  color: #1E2E44;
+	font-size: 12px;
+	color: #1E2E44;
 }
 
 .seleciona-regiao {
@@ -257,32 +237,56 @@ span {
 }
 
 .seleciona-regiao h3 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #1E2E44;
+	font-size: 16px;
+	font-weight: bold;
+	color: #1E2E44;
 }
 
 .selected {
-  border-bottom: 4px solid;
-  border-color: #08B8E3;
-  padding-right: 15%;
-  padding-left: 15%;
+	border-bottom: 4px solid;
+	border-color: #08B8E3;
+	padding-right: 60px;
+	padding-left: 60px;
 }
 
 .unselected {
-  border-bottom: 4px solid;
-  border-color: #C8C8C8;
-  padding-right: 12%;
-  padding-left: 12%;
+	border-bottom: 4px solid;
+	border-color: #C8C8C8;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 
+.seletor-estado {
+  margin-top: 20px;
+  justify-content: center;
+  margin-top: 18px;
+}
 
+.seletor-estado .caption {
+  font-size: 12px;
+	color: #1E2E44;
+}
+
+.graph-price h3 {
+  align-content: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-left: 22px;
+  margin-top: 30px;
+}
 
 .container-mid-2 {
 	background-color: #FFFFFF;
 	width: 100%;
 	height: 60%;
 	margin-bottom: 60px;
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top: 20px;
 }
 /* FIM TELA 3 REGIÃO */
 /* -- FOOTER  -- */
