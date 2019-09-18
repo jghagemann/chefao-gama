@@ -162,6 +162,11 @@ footer {
   margin-top: 20px;
 }
 
+.redline{
+	border-bottom: 6px solid #C44628;
+
+}
+
 .b_nav {
 	background-color: rgb(185, 185, 185);
 	height: 1%;
@@ -170,6 +175,8 @@ footer {
 
 .div-campo {
 	width: 100%;
+	justify-content: center;
+	align-content: center;
 	background-color: #1E2E44;
 }
 

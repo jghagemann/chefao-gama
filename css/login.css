@@ -145,6 +145,11 @@ body {
   margin-bottom: 40px;
 }
 
+.redline{
+	border-bottom: 6px solid #C44628;
+
+}
+
 .tela-login {
   margin-top: 40px;
   margin-left: 40px;
