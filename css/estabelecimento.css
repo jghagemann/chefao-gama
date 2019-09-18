@@ -293,6 +293,7 @@ span {
 	background-color: rgb(255, 255, 255);
 	width: 100%;
 	height: 20%;
+	margin-left: 27px;
 
 }
 
@@ -332,7 +333,7 @@ span {
 }
 
 .container-mid-3 img{
-	width: 100%;
+	width: 80%;
 	height: auto;
   align-content: center;
   justify-content: center;
@@ -384,8 +385,14 @@ footer img {
 
 
 footer p {
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  font-weight: bold;
+  color: #1E2E44;
+}
+
+footer .a:visited {
+	color: #1E2E44;
 }
 /* FIM TELA 3 REGIÃO */
 /* -- FOOTER  -- */

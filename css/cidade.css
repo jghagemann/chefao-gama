@@ -270,7 +270,7 @@ footer {
 	border-bottom: 4px solid;
 	border-color: #C8C8C8;
   padding-right: 25px;
-  padding-left: 2px;
+  padding-left: 25px;
 }
 
 .seletor-estado {
@@ -309,6 +309,14 @@ footer {
 	background-color: #F5F5F5;
 	border-left: 6px solid;
   border-color: #DEDAD9;
+  color: #000000;
+}
+
+.cidade-btn a:active {
+	color: #000000;
+}
+
+.cidade-btn a:visited {
   color: #000000;
 }
 
