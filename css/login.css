@@ -127,23 +127,41 @@ body {
   color: #FFFFFF;
   margin-left: 40px;
   margin-right: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
-.div-azul h3 {
-  color: #9AA9BC;
+.div-azul p {
+  color: #E4F0FF;
   font-weight: bold;
+  font-size: 12px;
   flex-wrap: wrap;
   margin-left: 40px;
   margin-right: 40px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 40px;
 }
 
 .tela-login {
-  margin-top: 60px;
+  margin-top: 40px;
   margin-left: 40px;
   margin-right: 40px;
+}
+
+.idioma {
+  text-align: center;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 20px;
+}
+
+.idioma h3 {
+  color: #1E2E44;
+}
+
+.bandeiras img {
+  justify-content: center;
+  align-content: center;
+  padding: 3px;
 }
 
 .avatar-usuario {
@@ -186,12 +204,12 @@ input {
   background-color: #FFFFFF;
   box-shadow: inset 0px 1px 2px rgba(10, 10, 10, 0.1);
   border-radius: 2px;
-  width: 200px;
+  width: 280px;
 }
 
 .esqueceu-senha {
   justify-content: flex-end;
-  margin-right: 40px;
+  
   margin-top: 20px;
   text-decoration: underline;
   text-decoration-color: #08B8E3;
