@@ -327,6 +327,10 @@ footer {
     margin-bottom: 60px;
   }
 
+  footer {
+    justify-content: space-around;
+  }
+
   .footer img {
     justify-content: center;
     align-content: center;

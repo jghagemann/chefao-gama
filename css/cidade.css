@@ -343,6 +343,10 @@ footer {
 	margin-top: 20px;
 }
 
+footer {
+  justify-content: space-around;
+}
+
 .footer img {
 	justify-content: center;
 	align-content: center;
