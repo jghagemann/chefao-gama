@@ -183,15 +183,25 @@ footer {
 
 .campo {
 	border-radius: 60px;
-	padding: 3%;
+	padding: 10px;
 	background-color: #FFFFFF;
 	justify-content: center;
 	align-content: center;
 	text-align: center;
 	margin-left: 40px;
 	margin-right: 40px;
-}
+	margin-top: 20px;
+  }
 
+  .azul-escuro {
+    font-size: 14px;
+    color:#222D53;
+    font-weight: bold;
+  }
+
+  .traco {
+    color: #9AA9BC;
+  }
 
 
 .texto-azul {
@@ -200,13 +210,16 @@ footer {
 	color: #08B8E3
 }
 
+.texto-roxo {
+	font-size: 14px;
+	font-weight: bold;
+	color: #8B34C1
+  }	
+
 .mid-1 {
   justify-content: center;
   text-align: center;
-}
-
-.mid-1 h1 {
-  margin-top: 20px;
+  background-color: #EFF1F5;
 }
 
 .mid-1 p {
@@ -215,6 +228,11 @@ footer {
 .mid-2 {
   justify-content: center;
   text-align: center;
+  flex-direction: row;
+}
+
+.mid-2 h1 {
+  font-weight: 300;
 }
 
 .mid-2 p {
@@ -222,6 +240,7 @@ footer {
   font-size: 18px;
   padding-top: 5px;
   margin-bottom: 0;
+  margin-right: 5px;
 }
 
 
@@ -234,7 +253,8 @@ footer {
 
 .seletor-regiao .caption {
 	font-size: 12px;
-	color: #1E2E44;
+  color: #1E2E44;
+  margin: 0;
 }
 
 .seleciona-regiao {
@@ -251,18 +271,14 @@ footer {
 }
 
 .selected {
-	border-bottom: 4px solid;
+	border-bottom: 3px solid;
 	border-color: #08B8E3;
-	padding-right: 60px;
-	padding-left: 60px;
+	margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 34px;
 }
 
-.unselected {
-	border-bottom: 4px solid;
-	border-color: #C8C8C8;
-  padding-left: 28px;
-  padding-right: 28px;
-}
+
 
 .seletor-estado {
   margin-top: 20px;
@@ -275,11 +291,15 @@ footer {
 	color: #1E2E44;
 }
 
+.graph img {
+  margin-left: 20px;
+}
+
 .graph-price h3 {
   align-content: center;
   justify-content: center;
   font-weight: bold;
-  margin-left: 22px;
+  margin-left: 11px;
   margin-top: 30px;
 }
 
@@ -298,34 +318,58 @@ footer {
 }
 
 footer {
-	justify-content: space-around;
-  }
+  justify-content: space-around;
+  background-color: #1E2E44;
+  align-content: center;
+}
 
 .footer img {
-	justify-content: center;
-	align-content: center;
-  }
-  
-  .menu-footer img {
-	  margin-left: 5px;
-  }
-  
-  
-  footer p {
-	justify-content: center;
-	align-items: center;
-	font-weight: bold;
-	color: #1E2E44;
-  }
-  
-  .menu-footer .img-exportar {
-	margin-left: 15px;
-	margin-bottom: 5px;
-  }
-  
-  footer .a:visited {
-	  color: #1E2E44;
-  }
+  justify-content: center;
+  align-content: center;
+}
+
+
+.menu-footer img {
+  margin-left: 5px;
+  margin-top: 22px;
+  margin-bottom: 8px;
+}
+
+.menu-footer p {
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+
+footer p {
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #1E2E44;
+}
+
+.menu-footer .img-busca {
+  margin-bottom: 2px;
+}
+
+.menu-footer .img-acoes {
+  margin-top: 17px;
+  margin-bottom: 9px;
+}
+
+.menu-footer .img-exportar {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+footer .a:visited {
+  color: #1E2E44;
+}
+
+footer a {
+  text-decoration: none;
+}
 /* FIM TELA 3 REGIÃO */
 /* -- FOOTER  -- */
 
