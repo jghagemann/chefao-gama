@@ -188,7 +188,7 @@ footer {
   }
   
   .campo-regioes:hover {
-    background-color: #C44628;
+    background-color: #4AA654;
     transition: 0.5s ease;
     cursor: pointer;
   }
@@ -269,7 +269,7 @@ footer {
   }
 
   .footer-1 p {
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
   font-size: 12px;

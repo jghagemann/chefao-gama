@@ -274,9 +274,7 @@ footer {
 }
 
 .seletor-estado {
-
   justify-content: center;
-
 }
 
 .seletor-estado .caption {
@@ -332,7 +330,7 @@ footer {
 .cidade-btn:hover{
 	transition: 0.5s;
 	border-left: 6px solid;
-	border-color: #C44628;
+	border-color: #4AA654;
 }
 
 
