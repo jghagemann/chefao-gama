@@ -312,6 +312,11 @@ footer {
   color: #000000;
 }
 
+.container-mid-2 .cidade-btn a {
+  margin: 0;
+  padding: 0;
+}
+
 .cidade-btn a:active {
 	color: #000000;
 }
