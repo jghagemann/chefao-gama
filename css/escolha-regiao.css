@@ -187,19 +187,19 @@ footer {
     margin-top: 20px;
   }
   
-  .campo-regioes-selec {
-    padding: 10px;
+  .campo-regioes:hover {
     background-color: #C44628;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    color: #FFFFFF;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
   }
 
-  .campo-regioes-selec a {
+  .campo-regioes a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .campo-regioes a:visited {
+    color: #000000;
     text-decoration: none;
   }
 
