@@ -296,6 +296,32 @@ footer {
 	border-radius: 50%;
 	margin-top: 20px;
 }
+
+.footer img {
+	justify-content: center;
+	align-content: center;
+  }
+  
+  .menu-footer img {
+	  margin-left: 5px;
+  }
+  
+  
+  footer p {
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	color: #1E2E44;
+  }
+  
+  .menu-footer .img-exportar {
+	margin-left: 15px;
+	margin-bottom: 5px;
+  }
+  
+  footer .a:visited {
+	  color: #1E2E44;
+  }
 /* FIM TELA 3 REGIÃO */
 /* -- FOOTER  -- */
 

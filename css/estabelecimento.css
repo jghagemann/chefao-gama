@@ -377,10 +377,13 @@ span {
   margin-bottom: 40px;
 }
 
-footer img {
-  justify-content: space-evenly;
+.footer img {
+  justify-content: center;
   align-content: center;
-  
+}
+
+.menu-footer img {
+	margin-left: 5px;
 }
 
 
@@ -389,6 +392,11 @@ footer p {
   align-items: center;
   font-weight: bold;
   color: #1E2E44;
+}
+
+.menu-footer .img-exportar {
+  margin-left: 15px;
+  margin-bottom: 5px;
 }
 
 footer .a:visited {
