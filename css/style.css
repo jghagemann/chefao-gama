@@ -66,7 +66,7 @@ p {
 	font-size: 14px;
 	font-weight: normal;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 caption {
@@ -191,6 +191,7 @@ footer {
 	margin-left: 40px;
 	margin-right: 40px;
 	margin-top: 20px;
+	margin-bottom: 15px;
   }
 
   .azul-escuro {
@@ -233,6 +234,7 @@ footer {
 
 .mid-2 h1 {
   font-weight: 300;
+  margin-bottom: 20px;
 }
 
 .mid-2 p {
@@ -254,7 +256,7 @@ footer {
 .seletor-regiao .caption {
 	font-size: 12px;
   color: #1E2E44;
-  margin: 0;
+  margin: 5px;
 }
 
 .seleciona-regiao {
@@ -274,8 +276,9 @@ footer {
 	border-bottom: 3px solid;
 	border-color: #08B8E3;
 	margin-right: 100px;
-  margin-left: 100px;
-  margin-bottom: 34px;
+  	margin-left: 100px;
+	margin-bottom: 34px;
+	margin-top: 5px;
 }
 
 

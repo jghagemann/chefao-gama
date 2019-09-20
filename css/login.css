@@ -124,7 +124,8 @@ body {
 }
 
 .logo {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 25px;
 }
 
 .div-azul h1 {
@@ -244,8 +245,8 @@ input {
 .login-button {
   background-color: #36D5A5;
   color: #FFFFFF;
-  font-size: 24px;
-  padding: 13px 44px 15px 44px;
+  font-size: 18px;
+  padding: 10px 34px;
   margin-top: 40px;
   margin-bottom: 40px;
   border-radius: 4px;
