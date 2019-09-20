@@ -185,14 +185,16 @@ footer{
 }
 
 .campo {
-	border-radius: 60px;
-	padding: 3%;
-	background-color: #FFFFFF;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
-	margin-left: 40px;
-	margin-right: 40px;
+    border-radius: 60px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .container-mid {
@@ -222,6 +224,35 @@ footer{
 	justify-content: center;
 }
 
+
+.azul-escuro {
+    font-size: 14px;
+    color:#222D53;
+    font-weight: bold;
+  }
+
+  .traco {
+    color: #9AA9BC;
+  }
+
+
+.texto-azul {
+	font-size: 14px;
+	font-weight: bold;
+	color: #08B8E3
+}
+
+.texto-roxo {
+	font-size: 14px;
+	font-weight: bold;
+	color: #8B34C1
+  }	
+
+.mid-1 {
+  justify-content: center;
+  text-align: center;
+  background-color: #EFF1F5;
+}
 .avatar {
 
 	border-radius: 50%;
@@ -290,6 +321,20 @@ span {
   padding-left: 12%;
 }
 
+.mid-2 {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.mid-2 p {
+  padding-top: 8px;
+}
+
+.mid-2 h1 {
+  font-weight: 300;
+}
+
 .container-mid-2{
 	background-color: rgb(255, 255, 255);
 	width: 100%;
@@ -329,8 +374,6 @@ span {
 	background-color: #FFFFFF;
 	width: 100%;
 	height: 60%;
-	
-
 }
 
 .container-mid-3 img{

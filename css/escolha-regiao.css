@@ -292,7 +292,9 @@ footer {
   margin-bottom: 20px;
 }
 
-
+.valor h1 {
+  font-weight: 300;
+}
 
 .footer-1 p {
   font-family: 'Open Sans';

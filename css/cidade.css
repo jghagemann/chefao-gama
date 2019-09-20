@@ -242,7 +242,9 @@ body {
 	margin-bottom: 20px;
   }
 
-
+  .valor h1 {
+	  font-weight: 300;
+  }
 
 /* SELEÇÃO ESTADOS */
 .seletor-regiao {
